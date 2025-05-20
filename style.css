@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background: #927575;
+  color: #333;
+}
+
+header {
+  background: #6b474b;
+  padding: 1rem 2rem;
+  color: white;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('https://source.unsplash.com/1600x600/?coffee,shop') no-repeat center center/cover;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.menu-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.menu-card img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border: 1px solid #e2d5d5;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.8rem;
+  background: #ebe7e7;
+  color: rgb(29, 27, 27);
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #f07a7a;
+  color: rgb(15, 15, 15);
+  text-align: start;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
